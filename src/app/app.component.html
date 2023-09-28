@@ -1,0 +1,19 @@
+<h2>BookApi</h2>
+<table>
+<thead>
+  <th>Title</th>
+  <th>AuthorFirstName</th>
+  <th>AuthorLastName</th>
+  <th>Publisher</th>
+  <th>Price</th>
+</thead>
+<tbody>
+  <tr *ngFor="let book of books">
+    <td>{{book.title}}</td>
+    <td>{{book.authorFirstName}}</td>
+    <td>{{book.authorLastName}}</td>
+    <td>{{book.publisher}}</td>
+    <td>{{book.price}}</td>
+    </tr>
+</tbody>
+</table>
